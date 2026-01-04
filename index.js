@@ -31,12 +31,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`Made to Serve New Orleans Roleplay`);
+  console.log(`Made By Colin`);
 });
 
 
-const statusMessages = ["dicord.gg/ValoVault"];
+const statusMessages = ["Moderating New Orleans Roleplay"];
 
 
 let currentIndex = 0;
