@@ -31,12 +31,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`Made to Serve New Orleans Roleplay`);
-  console.log(`Made By Colin`);
+  console.log(`Made to Serve Louisiana State Roleplay`);
+  console.log();
 });
 
 
-const statusMessages = ["Moderating New Orleans Roleplay"];
+const statusMessages = ["Moderating Louisiana State Roleplay"];
 
 
 let currentIndex = 0;
